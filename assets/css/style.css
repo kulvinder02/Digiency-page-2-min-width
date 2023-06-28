@@ -17,9 +17,11 @@
     margin-right: auto;
     overflow: hidden;
 }
-.pdding{
-   padding-left: 60px;
+
+.pdding {
+    padding-left: 60px;
 }
+
 .row {
     display: flex;
     flex-direction: row;
@@ -27,6 +29,7 @@
     margin-left: -12px;
     margin-right: -12px;
 }
+
 .d-flex {
     display: flex;
 }
@@ -50,23 +53,26 @@
 .js-center {
     justify-content: center;
 }
-.mb_25{
+
+.mb_25 {
     margin-bottom: 25px;
 }
+
 nav {
     background: var(--white, #FFF);
-    box-shadow: 0px 1px 10px 0px; 
+    box-shadow: 0px 1px 10px 0px;
     position: sticky;
     top: 0%;
     z-index: 5;
 }
-.navbar{
+
+.navbar {
     display: flex;
     text-align: center;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-  
+
 }
 
 .logo1 {
@@ -93,9 +99,11 @@ nav {
     font-weight: 500;
     line-height: 123.6%;
 }
-.font-size:hover{
+
+.font-size:hover {
     color: #FF5300;
 }
+
 .ml-38 {
     margin-left: 30px;
 }
@@ -133,12 +141,14 @@ nav {
     cursor: pointer;
     overflow: hidden;
 }
-.possiton_svg{
+
+.possiton_svg {
     position: absolute;
     top: 22%;
     right: -10%;
 }
-.page1:hover .possiton_svg{
+
+.page1:hover .possiton_svg {
     right: 0%;
     transition: 0.6s linear;
 }
@@ -233,9 +243,11 @@ nav {
     background: white;
     border: 1px solid #FF5300;
 }
+
 .page5_head {
     max-width: 500px;
 }
+
 .col_12 {
     width: 100%;
     padding-left: 12px;
@@ -406,7 +418,7 @@ nav {
 }
 
 .page4_card {
-    width: 270px;
+    width: 250px;
     height: 350px;
     background: var(--white, #FFF);
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
@@ -414,6 +426,7 @@ nav {
     overflow: hidden;
     cursor: pointer;
     margin-bottom: 20px;
+    transition: 1s ease-in-out;
 
 }
 
@@ -468,6 +481,7 @@ nav {
     fill: #FF5300;
     cursor: pointer;
 }
+
 .page5 {
     margin-top: 120px;
 }
@@ -488,11 +502,14 @@ nav {
     font-weight: 600;
     line-height: 123.6%;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .pag5_links {
-    width: 700px;
-    margin-left: 250px;
+    /* width: 700px;
+    margin-left: 250px; */
+    display: flex;
+    align-items: center;
 }
 
 .page5_head_orange {
@@ -509,6 +526,7 @@ nav {
     font-family: Work Sans;
     font-weight: 500;
     line-height: 123.6%;
+    white-space: nowrap;
 }
 
 .page_5_tags:hover {
@@ -523,7 +541,8 @@ nav {
 .page6 {
     margin-top: 120px;
 }
-.col_2{
+
+.col_2 {
     width: 8%;
     padding-left: 12px;
     padding-right: 12px;
@@ -598,10 +617,11 @@ nav {
     font-family: Work Sans;
     font-weight: 600;
     line-height: 123.6%;
+    max-width: 500px;
 }
 
 .page7_card {
-   max-width: 570px;
+    max-width: 570px;
     height: 294px;
     background: var(--white, #FFF);
     padding: 25px;
@@ -665,6 +685,8 @@ nav {
     font-weight: 600;
     line-height: 123.6%;
     margin-bottom: 80px;
+    max-width: 400px;
+    text-align: center;
 }
 
 .page8_orange_head {
@@ -714,7 +736,8 @@ nav {
     margin-left: 20px;
     margin-top: 10px;
 }
-.px{
+
+.px {
     padding-left: 12px;
     padding-right: 12px;
     width: 50%;
@@ -723,6 +746,7 @@ nav {
 }
 
 .form_head {
+    margin-left: 16px;
     color: #373737;
     font-size: 31.25px;
     font-family: Work Sans;
@@ -759,7 +783,8 @@ nav {
     line-height: 150.6%;
     margin-bottom: 18px;
 }
-textarea{
+
+textarea {
     color: var(--gray-paragraph, #7B7B7B);
     font-size: 16px;
     font-family: Work Sans;
@@ -769,6 +794,7 @@ textarea{
     padding-left: 10px;
     padding-top: 10px;
 }
+
 .mt_24 {
     margin-top: 60px;
 }
@@ -855,6 +881,7 @@ footer {
 .mb_10 {
     margin-bottom: 10px;
 }
+
 .orange_line {
     background: var(--orange, #FF5300);
     height: 60px;
@@ -862,7 +889,7 @@ footer {
 }
 
 .copyrigt {
-    margin-top: 16px;
+    margin-top: 36px;
 }
 
 .arrow_svg {
@@ -872,7 +899,7 @@ footer {
 .footer_input {
     position: relative;
     border: 1px solid var(--orange, #FF5300);
-  
+
     height: 58px;
     background-color: transparent;
     color: var(--gray-paragraph, #7B7B7B);
@@ -889,34 +916,41 @@ footer {
 }
 
 
-.col12_default_screen{
+.col12_default_screen {
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
 }
+
 .mt_mb_120 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.input{
+
+.input {
     width: 100%;
 }
+
 .ml_2 {
     margin-left: 0px;
 }
+
 .copyrigt {
-     margin-top: 6px;
+    margin-top: 6px;
 }
+
 .mt_24 {
     margin-top: 17px;
     margin-bottom: 17px;
 }
+
 .page8_orange_head {
     color: #FF5300;
     font-size: 26px;
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .page8_head {
     color: #373737;
     font-size: 28.06px;
@@ -925,6 +959,7 @@ footer {
     line-height: 123.6%;
     margin-bottom: 32px;
 }
+
 .page8_para {
     margin-top: 20px;
     color: var(--gray-paragraph, #7B7B7B);
@@ -933,12 +968,14 @@ footer {
     font-family: Work Sans;
     line-height: 150.6%;
 }
+
 .page7_heading_orange {
     color: #FF5300;
     font-size: 30px;
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .page7_heading {
     color: #373737;
     text-align: center;
@@ -948,6 +985,7 @@ footer {
     font-weight: 600;
     line-height: 123.6%;
 }
+
 .page7_subheading {
     color: var(--gray-paragraph, #7B7B7B);
     text-align: center;
@@ -957,15 +995,18 @@ footer {
     font-family: Work Sans;
     line-height: 150.6%;
 }
+
 .mt-80 {
     margin-top: 20px;
 }
+
 .hero_heading-orange {
     color: #FF5300;
     font-size: 23px;
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .hero_heading {
     margin-bottom: 10px;
     color: #373737;
@@ -973,6 +1014,7 @@ footer {
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .hero_bttn {
     margin-top: 23px;
     width: 150px;
@@ -986,14 +1028,17 @@ footer {
     color: white;
     border: none;
 }
+
 .hero-img {
     margin-bottom: 20px;
 }
+
 .page2-img {
     margin-top: 30px;
     margin-left: 0px;
     margin-bottom: 22px;
 }
+
 .page2-small-head {
     margin-top: 30px;
     margin-bottom: 25px;
@@ -1002,12 +1047,14 @@ footer {
     font-family: Work Sans;
     line-height: 150.6%;
 }
+
 .page2-orange {
     color: #FF5300;
     font-size: 23px;
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .card {
     width: 270px;
     height: 200px;
@@ -1016,6 +1063,7 @@ footer {
     margin-bottom: 23px;
     padding: 25px;
 }
+
 .page3-smal-head {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -1024,6 +1072,7 @@ footer {
     font-family: Work Sans;
     line-height: 150.6%;
 }
+
 .page2-head {
     margin-bottom: 18px;
     color: #373737;
@@ -1031,6 +1080,7 @@ footer {
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .page3_head {
     margin-bottom: 18px;
     color: #373737;
@@ -1038,12 +1088,14 @@ footer {
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .page3-orange-head {
     color: #FF5300;
     font-size: 25px;
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .page3_para {
     margin-bottom: 0px;
     color: var(--gray-paragraph, #7B7B7B);
@@ -1051,6 +1103,7 @@ footer {
     font-family: Work Sans;
     line-height: 150.6%;
 }
+
 .page3_bttn {
     margin-top: 30px;
     box-shadow: 4px 5px 15px 0px rgba(255, 83, 0, 0.40);
@@ -1065,6 +1118,7 @@ footer {
     border-radius: 5px;
     margin-bottom: 30px;
 }
+
 .page3_card2 {
     margin-top: 25px;
     width: 270px;
@@ -1073,6 +1127,7 @@ footer {
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
     margin-bottom: 25px;
 }
+
 .page3_card4 {
     margin-top: 25px;
     margin-bottom: 40px;
@@ -1081,6 +1136,7 @@ footer {
     background: var(--white, #FFF);
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
 }
+
 .page5_small-head {
     color: var(--gray-paragraph, #7B7B7B);
     font-size: 16px;
@@ -1089,18 +1145,22 @@ footer {
     margin-bottom: 25px;
     margin-top: 23px;
 }
-.page2-bttn{
+
+.page2-bttn {
     margin-bottom: 20px;
 }
-.page2-para{
+
+.page2-para {
     font-size: 14px;
 }
+
 .page5_head_orange {
     color: #FF5300;
     font-size: 23px;
     font-family: Work Sans;
     font-weight: 700;
 }
+
 .page5_head {
     color: #373737;
     font-size: 23.06px;
@@ -1109,28 +1169,36 @@ footer {
     line-height: 123.6%;
     margin-bottom: 25px;
 }
+
 .mb-top {
     margin-top: 4px;
 }
+
 .card {
     width: 100%;
 }
+
 .page3_card1 {
     width: 100%;
 }
+
 .page3_card2 {
     width: 100%;
 }
+
 .page3_card3 {
     width: 100%;
 }
+
 .page3_card4 {
     width: 100%;
 }
+
 .pag5_links {
     width: 400px;
     margin-left: 0px;
 }
+
 .page8_box {
     padding: 25px;
     background: var(--white, #FFF);
@@ -1139,12 +1207,15 @@ footer {
     height: 230px;
     margin-bottom: 60px;
 }
-.page5_head{
+
+.page5_head {
     padding-left: 12px;
 }
-.page8_head{
+
+.page8_head {
     padding-left: 12px;
 }
+
 .page8_box {
     padding: 25px;
     background: var(--white, #FFF);
@@ -1153,6 +1224,7 @@ footer {
     height: 255px;
     margin-bottom: 21px;
 }
+
 .footer_link_head {
     color: var(--white, #FFF);
     font-size: 31.06px;
@@ -1161,15 +1233,18 @@ footer {
     line-height: 123.6%;
     margin-top: 10px;
 }
+
 .mb_25 {
     margin-bottom: 8px;
 }
+
 .mt_60 {
     margin-top: 18px;
     margin-bottom: 9px;
 }
+
 .page_5_tags {
-   margin-left:10%;
+    margin-left: 10%;
     margin-bottom: 24px;
     color: var(--gray-paragraph, #7B7B7B);
     font-size: 20px;
@@ -1177,9 +1252,11 @@ footer {
     font-weight: 500;
     line-height: 123.6%;
 }
-.page4_card{
+
+.page4_card {
     width: 100%;
 }
+
 .slider_box {
     padding-left: 60px;
     padding-right: 60px;
@@ -1189,12 +1266,15 @@ footer {
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
     margin-bottom: 60px;
 }
-.page7_card{
+
+.page7_card {
     height: 519px;
 }
+
 .page4-para {
     margin-top: 35px;
 }
+
 .page5_small-head {
     color: var(--gray-paragraph, #7B7B7B);
     font-size: 16px;
@@ -1203,12 +1283,24 @@ footer {
     margin-bottom: 25px;
     margin-top: -3px;
 }
-.input{
+
+.input {
     max-width: 100%;
 }
 
+.page_5_tags {
+    margin-left: 7%;
+    margin-bottom: 24px;
+    color: var(--gray-paragraph, #7B7B7B);
+    font-size: 10px;
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 123.6%;
+}
+
 @media (max-width:992px) {
-   
+
+
     .nav-lg-screen {
         opacity: 0;
         position: fixed;
@@ -1241,14 +1333,16 @@ footer {
         border-radius: 5px;
     }
 
-    input[type="checkbox"]:checked + ul.nav-lg-screen {
+    input[type="checkbox"]:checked+ul.nav-lg-screen {
         opacity: 1;
         left: 0;
         z-index: 1;
     }
+
     .ml-38 {
-       margin-bottom: 40px;
+        margin-bottom: 40px;
     }
+
     .font-size {
         color: var(--black, #373737);
         font-size: 26px;
@@ -1257,7 +1351,22 @@ footer {
         line-height: 123.6%;
     }
 }
+
 @media (min-width:576px) {
+    .page_5_tags {
+        margin-left: 10%;
+        margin-bottom: 24px;
+        color: var(--gray-paragraph, #7B7B7B);
+        font-size: 20px;
+        font-family: Work Sans;
+        font-weight: 500;
+        line-height: 123.6%;
+    }
+
+    .page_5_tags {
+        white-space: none;
+    }
+
     .page5_small-head {
         color: var(--gray-paragraph, #7B7B7B);
         font-size: 16px;
@@ -1266,44 +1375,52 @@ footer {
         margin-bottom: 25px;
         margin-top: 20px;
     }
-    .slider_box {
-    padding-left: 60px;
-    padding-right: 60px;
-    position: relative;
-    height: 250px;
-    background: var(--orange, #FF5300);
-    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
-    margin-bottom: 60px;
-}
 
-    .page7_card{
+    .slider_box {
+        padding-left: 60px;
+        padding-right: 60px;
+        position: relative;
+        height: 250px;
+        background: var(--orange, #FF5300);
+        box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+        margin-bottom: 60px;
+    }
+
+    .page7_card {
         height: 300px;
     }
-    .page4_card{
+
+    .page4_card {
         width: 270px;
     }
-  
-    .page3_para{
+
+    .page3_para {
         margin-bottom: 20px;
     }
-    .col3_sm_screen{
+
+    .col3_sm_screen {
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .form_bttn{
+
+    .form_bttn {
         margin-left: 100px;
     }
-    .page4_card{
+
+    .page4_card {
         margin-bottom: 30px;
     }
+
     .pag5_links {
-        width: 500px;
-        margin-left: 20px;
+        width: 288px;
+        margin-left: 12px;
     }
+
     .ml_2 {
         margin-left: 0px;
     }
+
     .input {
         background: var(--white, #FFF);
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
@@ -1317,6 +1434,7 @@ footer {
         line-height: 150.6%;
         margin-bottom: 18px;
     }
+
     .page8_box {
         padding: 25px;
         background: var(--white, #FFF);
@@ -1325,10 +1443,12 @@ footer {
         height: 230px;
         margin-bottom: 60px;
     }
+
     .mt_mb_120 {
         margin-top: 36px;
         margin-bottom: 36px;
     }
+
     .form_head {
         margin-top: 50px;
         color: #373737;
@@ -1337,9 +1457,11 @@ footer {
         font-weight: 600;
         line-height: 123.6%;
     }
+
     .mb-top {
         margin-top: 0px;
     }
+
     .page5_head {
         color: #373737;
         font-size: 35.06px;
@@ -1349,15 +1471,18 @@ footer {
         margin-bottom: 25px;
         margin-left: 40px;
     }
+
     .page5_head_orange {
         color: #FF5300;
         font-size: 35px;
         font-family: Work Sans;
         font-weight: 700;
     }
+
     .page5 {
         margin-top: 60px;
     }
+
     .hero_bttn {
         margin-top: 33px;
         width: 139px;
@@ -1371,18 +1496,22 @@ footer {
         color: white;
         border: none;
     }
+
     .hero_heading-orange {
         color: #FF5300;
         font-size: 41px;
         font-family: Work Sans;
         font-weight: 700;
     }
+
     .mt-80 {
         margin-top: 54px;
     }
+
     .hero-img {
         margin-bottom: 54px;
     }
+
     .hero_heading {
         color: #373737;
         font-size: 41px;
@@ -1390,14 +1519,17 @@ footer {
         font-weight: 700;
         margin-bottom: 10px;
     }
-    .page2-bttn{
+
+    .page2-bttn {
         margin-bottom: 20px;
     }
+
     .page2-img {
         margin-top: 56px;
         margin-left: -0px;
         margin-bottom: 80px;
     }
+
     .page2-small-head {
         margin-top: 60px;
         margin-bottom: 25px;
@@ -1406,6 +1538,7 @@ footer {
         font-family: Work Sans;
         line-height: 150.6%;
     }
+
     .page2-head {
         margin-bottom: 18px;
         color: #373737;
@@ -1413,22 +1546,26 @@ footer {
         font-family: Work Sans;
         font-weight: 700;
     }
+
     .page2-orange {
         color: #FF5300;
         font-size: 39px;
         font-family: Work Sans;
         font-weight: 700;
     }
-    .col12_sm_screen{
+
+    .col12_sm_screen {
         width: 100%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .col6_sm_screen{
+
+    .col6_sm_screen {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
-    } 
+    }
+
     .card {
         width: 100%;
         height: 200px;
@@ -1437,12 +1574,14 @@ footer {
         margin-bottom: 25px;
         padding: 25px;
     }
-    .center{
+
+    .center {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
+
     .page3_bttn {
         margin-top: 0px;
         box-shadow: 4px 5px 15px 0px rgba(255, 83, 0, 0.40);
@@ -1457,6 +1596,7 @@ footer {
         border-radius: 5px;
         margin-bottom: 40px;
     }
+
     .page3_card1 {
         margin-top: 0px;
         width: 100%;
@@ -1464,6 +1604,7 @@ footer {
         background: var(--white, #FFF);
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
     }
+
     .page3_card2 {
         margin-top: 23px;
         width: 100%;
@@ -1472,6 +1613,7 @@ footer {
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
         margin-bottom: 30px;
     }
+
     .page3_card4 {
         margin-top: 23px;
         margin-bottom: 50px;
@@ -1480,9 +1622,11 @@ footer {
         background: var(--white, #FFF);
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
     }
-    .page3_card3{
+
+    .page3_card3 {
         width: 100%;
     }
+
     .page4-para {
         margin-top: 53px;
         margin-bottom: 25px;
@@ -1491,6 +1635,7 @@ footer {
         font-family: Work Sans;
         line-height: 150.6%;
     }
+
     .page8_head {
         color: #373737;
         font-size: 34.06px;
@@ -1499,12 +1644,14 @@ footer {
         line-height: 123.6%;
         margin-bottom: 18px;
     }
+
     .page8_orange_head {
         color: #FF5300;
         font-size: 35px;
         font-family: Work Sans;
         font-weight: 700;
     }
+
     .page4-orange {
         color: #FF5300;
         font-size: 34px;
@@ -1512,36 +1659,60 @@ footer {
         font-weight: 700;
     }
 }
+
 @media (min-width:768px) {
-   
-    .page3_bttn{
+
+
+    .page3_bttn {
         margin-top: 20px;
     }
+
     .pag5_links {
         width: 500px;
         margin-left: 100px;
     }
-    .col6_md_screen{
-        width:50%;
+
+    .col6_md_screen {
+        width: 50%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .page3_card3{
+
+    .page3_card3 {
         margin-top: -24px;
     }
-    .page4_card{
+
+    .page4_card {
         margin-bottom: 30px;
     }
-    .textarea{
+
+    .textarea {
         width: 100%;
     }
 
 }
+
 @media (min-width:992px) {
+    .copyrigt {
+        margin-top: 20px;
+    }
+    .page3_card2 {
+        margin-top: 160px;
+    }
+
+    .card {
+        margin-bottom: 90px;
+    }
+
+    .page3_card3 {
+        margin-top: -112px;
+    }
+
     .mt_60 {
         margin-top: 60px;
         margin-bottom: 15px;
     }
+
     .footer_link_head {
         color: var(--white, #FFF);
         font-size: 31.06px;
@@ -1550,9 +1721,11 @@ footer {
         line-height: 123.6%;
         margin-top: 60px;
     }
+
     .mb_25 {
         margin-bottom: 16px;
     }
+
     .page7_subheading {
         color: var(--gray-paragraph, #7B7B7B);
         text-align: center;
@@ -1562,6 +1735,7 @@ footer {
         font-family: Work Sans;
         line-height: 150.6%;
     }
+
     .page5_small-head {
         color: var(--gray-paragraph, #7B7B7B);
         font-size: 16px;
@@ -1570,6 +1744,7 @@ footer {
         margin-bottom: 25px;
         margin-top: 79px;
     }
+
     .page3-smal-head {
         margin-top: 120px;
         margin-bottom: 25px;
@@ -1578,23 +1753,28 @@ footer {
         font-family: Work Sans;
         line-height: 150.6%;
     }
-    .col1_lg_screen{
+
+    .col1_lg_screen {
         width: 8%;
         padding-left: 12px;
         padding-right: 12px;
     }
+
     .page_5_tags {
-        margin-left: 15%;
+
         margin-bottom: 24px;
     }
+
     .page2-img {
         margin-top: 176px;
         margin-left: 0px;
         margin-bottom: 80px;
     }
-    .page3_card4{
-        margin-top: 10px;
+
+    .page3_card4 {
+        margin-top: -1px;
     }
+
     .page3_card1 {
         margin-top: 71px;
         width: 100%;
@@ -1602,22 +1782,28 @@ footer {
         background: var(--white, #FFF);
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
     }
+
     .mt-80 {
         margin-top: 112px;
     }
-    .page8_para{
+
+    .page8_para {
         margin-top: 100px;
     }
-    .page8_head{
+
+    .page8_head {
         margin-bottom: 50px;
     }
+
     .mb-top {
-        margin-top: -74px;
+        margin-top: -92px;
     }
+
     .pag5_links {
-        width: 700px;
+        max-width: 700px;
         margin-left: 200px;
     }
+
     .page3_head {
         margin-bottom: 18px;
         color: #373737;
@@ -1625,12 +1811,14 @@ footer {
         font-family: Work Sans;
         font-weight: 700;
     }
+
     .page3-orange-head {
         color: #FF5300;
         font-size: 37px;
         font-family: Work Sans;
         font-weight: 700;
     }
+
     .input {
         background: var(--white, #FFF);
         box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.10);
@@ -1644,33 +1832,40 @@ footer {
         line-height: 150.6%;
         margin-bottom: 18px;
     }
+
     .ml_2 {
         margin-left: 14px;
     }
+
     .mt_mb_120 {
         margin-top: 80px;
         margin-bottom: 80px;
     }
+
     .mt_24 {
         margin-top: 166px;
     }
-    .col6_lg_screen{
+
+    .col6_lg_screen {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .col3_lg_screen{
+
+    .col3_lg_screen {
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .col4_lg_screen{
+
+    .col4_lg_screen {
         width: 33.33%;
         padding-left: 12px;
         padding-right: 12px;
     }
+
     .form_bttn {
         margin-left: unset;
     }
-    
+
 }
